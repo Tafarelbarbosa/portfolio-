@@ -119,11 +119,12 @@
         <section class="formulario">
             <div class="interface">
                 <h2 class="titulo">ENTRE EM CONTATO <span>COMIGO.</span></h2>
-                <form action="">
-                    <input type="text" class="text" placeholder="Seu nome completo" required>
-                    <input type="text" class="text" placeholder="Seu email" required>
-                    <input type="text" class="text" placeholder="Seu celular">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                <form action="https://formsubmit.co/tafarelhvb@gmail.com" method="POST">
+                    <input type="text" name="name" class="text" placeholder="Seu nome completo" required>
+                    <input type="text" name="email" class="text" placeholder="Seu email" required>
+                    <input type="text" name="celular" class="text" placeholder="Seu celular">
+                    <textarea name="message" id="" placeholder="Sua mensagem" required></textarea>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
             </div><!--interface-->
