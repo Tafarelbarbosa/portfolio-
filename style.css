@@ -43,10 +43,12 @@ h2.titulo span{
     color: #366CC9;
 }
 
-button:hover{
+button:hover, form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px #366CC9;
     transform: scale(1.05);
 }
+
+
 
 /*ESTILO DO CABEÇALHO*/
 header{
@@ -251,4 +253,53 @@ section.portfolio .flex{
 
 .overlay:hover{
     opacity: 1;
+}
+
+/*ESTILO DO FORUMULÁRIO DE CONTATO*/
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form input::placeholder ,form textarea::placeholder{
+    color: #366CC9;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;    
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #366CC9;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
 }
