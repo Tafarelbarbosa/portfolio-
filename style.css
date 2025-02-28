@@ -334,6 +334,46 @@ footer .line-footer p a{
     color: white;
 }
 
+/*segunda página*/
+
+
+
+
+.txt-topo-site-segunda-pagina2 h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.txt-topo-site-segunda-pagina2 h1 span{
+    color: #366CC9;
+    font-size: 42px;
+    text-align: center;
+}
+
+.btn-contato-segundapagina a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn-contato-segundapagina a button{
+    display: flex;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #366CC9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+
+
+
 @media screen and (max-width: 1020px){
     /*classes gerais*/
     .flex{
@@ -394,6 +434,8 @@ footer .line-footer p a{
         text-align: center;
     }
 
+    
+
     .btn-social{
         text-align: center;
     }
@@ -413,5 +455,20 @@ footer .line-footer p a{
     footer .line-footer{
         text-align: center;
     }
+
+    /*segunda pagina*/
+
+    
+    .btn-contato-segundapagina button{
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background: #366CC9;
+        border: 0;
+        width: 260px;
+        text-align: center;
+        
+    }
+    
 }
 
