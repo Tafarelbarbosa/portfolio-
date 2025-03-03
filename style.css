@@ -389,22 +389,12 @@ footer .line-footer p a{
         flex-direction: column-reverse;
     }
     
-    /*.btn-contato button{
-        
-        padding: 10px 40px;
-        font-size: 18px;
-        font-weight: 600;
-        background: #366CC9;
-        border: 0;
-        border-radius: 30px;
-        cursor: pointer;
-        transition: .2s;
-    }*/
-    /*cabeçalho*/
+/*cabeçalho*/
 
-    /*.menu-desktop, .btn-contato{
-        display: none;
-    }*/
+header a:hover{
+    color: #fff;
+    transform: none;
+}
     
     /*topo do site*/
 
