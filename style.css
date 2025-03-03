@@ -390,12 +390,16 @@ footer .line-footer p a{
     }
     
 /*cabeçalho*/
+    header .btn-contato{
+            display: none;
+        }
 
-header a:hover{
-    color: #fff;
-    transform: none;
-}
+    header a:hover{
+        color: #fff;
+        transform: none;
+    }
     
+
     /*topo do site*/
 
     section.topo-do-site .flex{
